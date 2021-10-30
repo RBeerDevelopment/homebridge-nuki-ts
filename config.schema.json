@@ -24,6 +24,12 @@
         "required": true,
         "placeholder": "8080",
         "pattern": "/^[0-9]{1,5}$/g"
+      },
+      "bridgeToken": {
+        "title": "Nuki Bridge Token",
+        "type": "string",
+        "required": true,
+        "placeholder": "abcd1234"
       }
     }
   }
