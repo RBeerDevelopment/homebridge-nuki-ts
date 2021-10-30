@@ -1,7 +1,7 @@
 /**
  * This is the name of the platform that users will use to register the plugin in the Homebridge config.json
  */
-export const PLATFORM_NAME = 'HomebridgeNukiTS';
+export const PLATFORM_NAME = 'Homebridge-Nuki-TS';
 
 /**
  * This must match the name of your plugin as defined the package.json

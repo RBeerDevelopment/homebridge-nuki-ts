@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "HomebridgeNukiTS",
+  "pluginAlias": "Homebridge-Nuki-TS",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -9,7 +9,21 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
+        "default": "Homebridge Nuki Plugin"
+      },
+      "bridgeIp": {
+        "title": "Nuki Bridge IP Address",
+        "type": "string",
+        "required": true,
+        "placeholder": "192.168.1.1",
+        "format": "ipv4"
+      },
+      "bridgePort": {
+        "title": "Nuki Bridge Port",
+        "type": "integer",
+        "required": true,
+        "placeholder": "8080",
+        "pattern": "/^[0-9]{1,5}$/g"
       }
     }
   }
